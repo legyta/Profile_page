@@ -85,9 +85,6 @@ $p: 1.4rem;
     border-style: solid;
     border-radius: 30px;
   }
-  .sissy-button.btn.btn-primary {
-    background-color: $pink;
-  }
 
   .sloth-button.btn.btn-primary {
     background-color: #67705c;
@@ -101,6 +98,11 @@ $p: 1.4rem;
     margin-bottom: 2px;
   }
 
+  .card4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
   .guide-button.btn.btn-primary {
     background-color: #394a4d;
   }
@@ -110,6 +112,30 @@ $p: 1.4rem;
     border-style: solid;
     border-radius: 30px;
   }
+  .sissy-button.btn.btn-primary {
+    background-color: $pink;
+  }
+
+  .card4 {
+    border-color: #3a3c26;
+    border-style: solid;
+    border-radius: 30px;
+  }
+
+  .groenhartig-button.btn.btn-primary {
+    background-color: #3a3c26;
+  }
+
+  .card5 {
+    border-color: #d9bbb1;
+    border-style: solid;
+    border-radius: 30px;
+  }
+
+  .birthday-button.btn.btn-primary {
+    background-color: #d9bbb1;
+  }
+
   .projects p {
     font-size: 1.2rem;
   }

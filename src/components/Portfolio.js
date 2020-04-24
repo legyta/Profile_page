@@ -4,12 +4,52 @@ import { Card, Button } from "react-bootstrap";
 import sissy from "./images/sissy.PNG";
 import photoGuide from "./images/photoGuide.PNG";
 import sloth from "./images/sloth.PNG";
+import birthday from "./images/birthday.PNG";
+import groenhartig from "./images/groenhartig.PNG";
 
 function Portfolio() {
   return (
     <div className="portfolio-section">
       <h1>Check out my work:</h1>
       <div className="cards">
+        <Card className="card5">
+          <Card.Img variant="top" src={birthday} />
+          <Card.Body>
+            <Card.Title className="card-title">Happy Birthday</Card.Title>
+            <Card.Text>
+              Demo of birthday web app for my sister. Learnt:
+              <li>- Using external libraries</li>
+              <li>- Refreshed memory on Routing</li>
+              <li>- Practised deployment</li>
+            </Card.Text>
+            <Button
+              className="birthday-button"
+              href="https://funstuff.netlify.app/"
+            >
+              Check out
+            </Button>
+          </Card.Body>
+        </Card>
+
+        <Card className="card4">
+          <Card.Img variant="top" src={groenhartig} />
+          <Card.Body>
+            <Card.Title className="card-title">Groenhartig</Card.Title>
+            <Card.Text>
+              Wordpress site for organic farm of a friend. Learnt:
+              <li>- Working with Wordpress</li>
+              <li>- Styling with custom css</li>
+              <li>- Power of plugins on WP</li>
+            </Card.Text>
+            <Button
+              className="groenhartig-button"
+              href="https://groen-hartig.nl/"
+            >
+              Check out
+            </Button>
+          </Card.Body>
+        </Card>
+
         <Card className="card3">
           <Card.Img variant="top" src={sissy} />
           <Card.Body>
