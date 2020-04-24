@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+
+// COLOURS
+$yellow: #ced3b4;
+$pink: #b06d81;
+
+//FONT FAMILY
+$title-font: "Kavivanar";
+$font: "Montserrat", sans-serif;
+
+//FONT SIZE
+$h1: 2rem;
+$p: 1.4rem;
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.contact-section {
+  a {
+    font-family: $font;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+  }
+  a:hover {
+    color: $pink;
+  }
+  h1 {
+    color: $pink;
+    font-size: $h1;
+    font-family: $title-font;
+  }
+  a.btn.btn-primary {
+    font-family: "Kavivanar";
+    font-size: 1rem;
+    background-color: $pink;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      transition: 0.2s;
+      background: $yellow;
+    }
+  }
+
+  .social-media {
+    margin-bottom: 40px;
+  }
+  .social-media .git {
+    margin-left: 10px;
+  }
+
+  .social-svg-mask .git {
+    fill: rgb(46, 46, 46);
+  }
+}

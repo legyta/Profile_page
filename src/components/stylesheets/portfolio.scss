@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+
+// COLOURS
+$yellow: #ced3b4;
+$pink: #b06d81;
+
+//FONT FAMILY
+$title-font: "Kavivanar";
+$font: "Montserrat", sans-serif;
+
+//FONT SIZE
+$h1: 2rem;
+$p: 1.4rem;
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: left;
+  font-family: $font;
+  margin-right: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: left;
+  font-family: $font;
+}
+
+.portfolio-section {
+  h1 {
+    font-family: $title-font;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: $pink;
+  }
+
+  .card-title {
+    font-family: $font;
+    font-size: $p;
+    margin-left: 10px;
+  }
+
+  .card-text {
+    font-family: $font;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  img {
+    width: 43vh;
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+    border-bottom-right-radius: 10% 10%;
+    border-bottom-left-radius: 10% 10%;
+    margin-left: 4px;
+    margin-top: 3px;
+  }
+
+  a.btn.btn-primary {
+    font-family: "Kavivanar";
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      transition: 0.2s;
+      background: $yellow;
+    }
+  }
+
+  .card1 {
+    border-color: #67705c;
+    border-style: solid;
+    border-radius: 30px;
+  }
+  .sissy-button.btn.btn-primary {
+    background-color: $pink;
+  }
+
+  .sloth-button.btn.btn-primary {
+    background-color: #67705c;
+  }
+
+  .card2 {
+    border-color: #394a4d;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .guide-button.btn.btn-primary {
+    background-color: #394a4d;
+  }
+
+  .card3 {
+    border-color: $pink;
+    border-style: solid;
+    border-radius: 30px;
+  }
+  .projects p {
+    font-size: 1.2rem;
+  }
+
+  .previous-experience {
+    h1 {
+      font-family: $title-font;
+      margin-bottom: 5px;
+      margin-top: 30px;
+      color: $pink;
+    }
+    li {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .portfolio-section {
+    img {
+      width: 99%;
+      margin-left: 3px;
+    }
+  }
+
+  .card1 {
+    width: 50%;
+  }
+
+  .card2 {
+    width: 50%;
+  }
+
+  .card3 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .portfolio-section {
+    img {
+      width: 98%;
+      margin-left: 5px;
+    }
+
+    .card1 {
+      width: 60%;
+    }
+    .card2 {
+      width: 60%;
+    }
+    .card3 {
+      width: 60%;
+    }
+  }
+}
+
+@media screen and (min-width: 735px) and (max-width: 767px) {
+  .portfolio-section {
+    img {
+      width: 145vh;
+      margin-left: 3px;
+    }
+  }
+
+  .card1 {
+    width: 78%;
+  }
+
+  .card2 {
+    width: 78%;
+  }
+
+  .card3 {
+    width: 78%;
+  }
+}
+
+@media screen and (min-width: 733px) and (max-width: 734px) {
+  .portfolio-section {
+    img {
+      width: 135vh;
+      margin-left: 2.5px;
+    }
+  }
+
+  .card1 {
+    width: 78%;
+  }
+
+  .card2 {
+    width: 78%;
+  }
+
+  .card3 {
+    width: 78%;
+  }
+}
+
+@media screen and (min-width: 668px) and (max-width: 732px) {
+  .portfolio-section {
+    img {
+      width: 131vh;
+      margin-left: 2px;
+    }
+  }
+
+  .card1 {
+    width: 85%;
+  }
+
+  .card2 {
+    width: 85%;
+  }
+
+  .card3 {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 649px) and (max-width: 667px) {
+  .portfolio-section {
+    img {
+      width: 160vh;
+      margin-left: 2px;
+    }
+  }
+
+  .card1 {
+    width: 85%;
+  }
+
+  .card2 {
+    width: 85%;
+  }
+
+  .card3 {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 648px) {
+  .portfolio-section {
+    img {
+      width: 100vh;
+      border-top-left-radius: 10% 10%;
+      border-top-right-radius: 10% 10%;
+      border-bottom-right-radius: 10% 10%;
+      border-bottom-left-radius: 10% 10%;
+      margin-left: 2px;
+      margin-top: 3px;
+    }
+  }
+
+  .card1 {
+    border-color: $pink;
+    border-style: solid;
+    border-radius: 30px;
+  }
+
+  .card2 {
+    border-color: $pink;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .card3 {
+    border-color: $pink;
+    border-style: solid;
+    border-radius: 30px;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 415px) {
+  .portfolio-section {
+    img {
+      width: 48vh;
+      margin-left: 5px;
+    }
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 413px) {
+  .portfolio-section {
+    img {
+      width: 49vh;
+    }
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 375px) {
+  .portfolio-section {
+    img {
+      width: 97%;
+    }
+  }
+}
