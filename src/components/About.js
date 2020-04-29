@@ -15,11 +15,12 @@ function About() {
           <p>my name is Ligita</p>
         </div>{" "}
       </div>
-      <p>Currently at bootcamp to become Web Developer</p>
+      <p>Junior Full Stack Web Developer (currently at bootcamp)</p>
       <div className="about-coding">
         <h1>I'm coding and learning</h1>
       </div>
       <div className="about-techs">
+        {" "}
         <div className="about-techs1">
           {" "}
           <li>JavaScript</li>
@@ -33,7 +34,6 @@ function About() {
           <li>JWT</li>
           <li>Node.js</li>
         </div>
-
         <div className="about-techs3">
           <li>Express.js</li>
           <li>MySQL</li>

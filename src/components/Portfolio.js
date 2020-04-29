@@ -11,7 +11,8 @@ function Portfolio() {
   return (
     <div className="portfolio-section">
       <h1>Check out my work:</h1>
-      <div className="cards">
+
+      <div className="row1">
         <Card className="card5">
           <Card.Img variant="top" src={birthday} />
           <Card.Body>
@@ -49,7 +50,8 @@ function Portfolio() {
             </Button>
           </Card.Body>
         </Card>
-
+      </div>
+      <div className="row2">
         <Card className="card3">
           <Card.Img variant="top" src={sissy} />
           <Card.Body>
@@ -95,7 +97,7 @@ function Portfolio() {
             <Card.Text>
               Creating one html/css project for 5 days. Learnt:
               <li>- Bootstrap</li>
-              <li>- Limits/required inputs for forms</li>
+              <li>- Required inputs for forms</li>
               <li>- Adding videos</li>
             </Card.Text>
             <Button
@@ -107,6 +109,7 @@ function Portfolio() {
           </Card.Body>
         </Card>
       </div>
+
       <div className="projects">
         <h1>Projects coming up!</h1>
 

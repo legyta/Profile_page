@@ -81,6 +81,13 @@ li {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .about-coding h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
   }
 
   .about-section {
@@ -93,6 +100,19 @@ li {
       margin-top: 230px;
       margin-left: 40px;
       font-size: 1.8rem;
+    }
+    p {
+      display: flex;
+      justify-content: center;
+      font-size: $p;
+    }
+
+    .about-techs {
+      display: flex;
+      justify-content: center;
+    }
+    .about-techs li {
+      font-size: $p;
     }
   }
 }
