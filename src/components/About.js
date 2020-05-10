@@ -15,7 +15,7 @@ function About() {
           <p>my name is Ligita</p>
         </div>{" "}
       </div>
-      <p>Junior Full Stack Web Developer (currently at bootcamp)</p>
+      <p>Junior Full Stack Web Developer</p>
       <div className="about-coding">
         <h1>I'm coding and learning</h1>
       </div>

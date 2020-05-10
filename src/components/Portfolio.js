@@ -76,7 +76,7 @@ function Portfolio() {
           <Card.Body>
             <Card.Title>Amsterdam Photo Guide</Card.Title>
             <Card.Text className="card-text">
-              1st group project at bootcamp. Learnt:
+              1st group project. Learnt:
               <li>- HTML and CSS</li>
               <li>- Responsive web design</li>
               <li>- Basics of JavaScript</li>
