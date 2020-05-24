@@ -131,9 +131,17 @@ $p: 1.4rem;
     border-style: solid;
     border-radius: 30px;
   }
-
   .birthday-button.btn.btn-primary {
     background-color: #d9bbb1;
+  }
+
+  .card6 {
+    border-color: #d5a129;
+    border-style: solid;
+    border-radius: 30px;
+  }
+  .research-button.btn.btn-primary {
+    background-color: #d5a129;
   }
 
   .projects p {
@@ -213,6 +221,11 @@ $p: 1.4rem;
     margin-right: 20px;
   }
 
+  .card6 {
+    width: 28%;
+    margin-right: 20px;
+  }
+
   .projects p {
     display: flex;
     justify-content: center;
@@ -257,6 +270,9 @@ $p: 1.4rem;
     .card5 {
       width: 44%;
       margin-right: 10px;
+    }
+    .card6 {
+      width: 44%;
     }
     .card-text {
       font-size: 0.9rem;
@@ -306,6 +322,9 @@ $p: 1.4rem;
   .card5 {
     width: 78%;
   }
+  .card6 {
+    width: 78%;
+  }
 }
 
 @media screen and (min-width: 733px) and (max-width: 734px) {
@@ -333,6 +352,9 @@ $p: 1.4rem;
   }
 
   .card5 {
+    width: 78%;
+  }
+  .card6 {
     width: 78%;
   }
 }
@@ -364,6 +386,10 @@ $p: 1.4rem;
   .card5 {
     width: 85%;
   }
+
+  .card6 {
+    width: 85%;
+  }
 }
 
 @media screen and (min-width: 649px) and (max-width: 667px) {
@@ -391,6 +417,9 @@ $p: 1.4rem;
   }
 
   .card5 {
+    width: 85%;
+  }
+  .card6 {
     width: 85%;
   }
 }

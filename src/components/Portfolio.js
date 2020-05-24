@@ -6,13 +6,30 @@ import photoGuide from "./images/photoGuide.PNG";
 import sloth from "./images/sloth.PNG";
 import birthday from "./images/birthday.PNG";
 import groenhartig from "./images/groenhartig.PNG";
-
+import research from "./images/research.PNG";
+import research_video from "./images/research_video.mp4";
 function Portfolio() {
   return (
     <div className="portfolio-section">
       <h1>Check out my work:</h1>
 
       <div className="row1">
+        <Card className="card6">
+          <Card.Img variant="top" src={research} />
+          <Card.Body>
+            <Card.Title className="card-title">Research web</Card.Title>
+            <Card.Text>
+              Fullstack web for media research project. Learnt:
+              <li>- Passing data front to end</li>
+              <li>- Redux for state management</li>
+              <li>- Slider for data recording</li>
+            </Card.Text>
+            <Button className="research-button" href={research_video}>
+              Check out
+            </Button>
+          </Card.Body>
+        </Card>
+
         <Card className="card5">
           <Card.Img variant="top" src={birthday} />
           <Card.Body>
