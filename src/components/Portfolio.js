@@ -8,6 +8,8 @@ import birthday from "./images/birthday.PNG";
 import groenhartig from "./images/groenhartig.PNG";
 import research from "./images/research.PNG";
 import research_video from "./images/research_video.mp4";
+import eva from "./images/eva.PNG";
+
 function Portfolio() {
   return (
     <div className="portfolio-section">
@@ -15,13 +17,32 @@ function Portfolio() {
 
       <div className="row1">
         <Card className="card6">
+          <Card.Img variant="top" src={eva} />
+          <Card.Body>
+            <Card.Title className="card-title">Portfolio website</Card.Title>
+            <Card.Text>
+              Built in React.js for a friend. Learnt:
+              <li>- EmailJS integration</li>
+              <li>- Drawing SVG files</li>
+              <li>- Concept to reality development</li>
+            </Card.Text>
+            <Button
+              className="eva-button"
+              href="https://eva-serra.netlify.app/"
+            >
+              Check out
+            </Button>
+          </Card.Body>
+        </Card>
+
+        <Card className="card5">
           <Card.Img variant="top" src={research} />
           <Card.Body>
-            <Card.Title className="card-title">Research web</Card.Title>
+            <Card.Title className="card-title">Fullstack website</Card.Title>
             <Card.Text>
-              Fullstack web for media research project. Learnt:
+              Built for media research project. Learnt:
               <li>- Passing data front to end</li>
-              <li>- Redux for state management</li>
+              <li>- Redux (state management)</li>
               <li>- Slider for data recording</li>
             </Card.Text>
             <Button className="research-button" href={research_video}>
@@ -30,14 +51,14 @@ function Portfolio() {
           </Card.Body>
         </Card>
 
-        <Card className="card5">
+        <Card className="card4">
           <Card.Img variant="top" src={birthday} />
           <Card.Body>
-            <Card.Title className="card-title">Happy Birthday</Card.Title>
+            <Card.Title className="card-title">React.js web app</Card.Title>
             <Card.Text>
               Demo of birthday web app for my sister. Learnt:
               <li>- Using external libraries</li>
-              <li>- Refreshed memory on Routing</li>
+              <li>- Routing</li>
               <li>- Practised deployment</li>
             </Card.Text>
             <Button
@@ -48,13 +69,14 @@ function Portfolio() {
             </Button>
           </Card.Body>
         </Card>
-
-        <Card className="card4">
+      </div>
+      <div className="row2">
+        <Card className="card3">
           <Card.Img variant="top" src={groenhartig} />
           <Card.Body>
-            <Card.Title className="card-title">Groenhartig</Card.Title>
+            <Card.Title className="card-title">Wordpress e-commerce</Card.Title>
             <Card.Text>
-              Wordpress site for organic farm of a friend. Learnt:
+              Built for an organic farm of a friend. Learnt:
               <li>- Working with Wordpress</li>
               <li>- Styling with custom css</li>
               <li>- Power of plugins on WP</li>
@@ -67,12 +89,11 @@ function Portfolio() {
             </Button>
           </Card.Body>
         </Card>
-      </div>
-      <div className="row2">
-        <Card className="card3">
+
+        <Card className="card2">
           <Card.Img variant="top" src={sissy} />
           <Card.Body>
-            <Card.Title className="card-title">Animals Who Read</Card.Title>
+            <Card.Title className="card-title">React + API website</Card.Title>
             <Card.Text>
               2nd group project at Wild Code School. Learnt:
               <li>- Fetching data from API</li>
@@ -88,12 +109,12 @@ function Portfolio() {
           </Card.Body>
         </Card>
 
-        <Card className="card2">
+        <Card className="card1">
           <Card.Img variant="top" src={photoGuide} />
           <Card.Body>
-            <Card.Title>Amsterdam Photo Guide</Card.Title>
+            <Card.Title>HTML/CSS website</Card.Title>
             <Card.Text className="card-text">
-              1st group project. Learnt:
+              1st website building group project. Learnt:
               <li>- HTML and CSS</li>
               <li>- Responsive web design</li>
               <li>- Basics of JavaScript</li>
@@ -101,25 +122,6 @@ function Portfolio() {
             <Button
               className="guide-button"
               href="https://legyta.github.io/firstProject_Amsterdam_photo_guide/index.html"
-            >
-              Check out
-            </Button>
-          </Card.Body>
-        </Card>
-
-        <Card className="card1">
-          <Card.Img variant="top" src={sloth} />
-          <Card.Body>
-            <Card.Title>5 Day Coding Challenge</Card.Title>
-            <Card.Text>
-              Creating one html/css project for 5 days. Learnt:
-              <li>- Bootstrap</li>
-              <li>- Required inputs for forms</li>
-              <li>- Adding videos</li>
-            </Card.Text>
-            <Button
-              className="sloth-button"
-              href="https://github.com/legyta/5-day-coding-challenge"
             >
               Check out
             </Button>

@@ -25,14 +25,14 @@ function About() {
           {" "}
           <li>JavaScript</li>
           <li>React.js</li>
-          <li>API</li>
-          <li>Redux</li>
+          <li>React Native</li>
+          <li>Node.js</li>
         </div>
         <div className="about-techs2">
+          <li>Redux</li>
           <li>Hooks</li>
+          <li>API</li>
           <li>Passport.js</li>
-          <li>JWT</li>
-          <li>Node.js</li>
         </div>
         <div className="about-techs3">
           <li>Express.js</li>

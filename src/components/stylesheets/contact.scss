@@ -1,17 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
-
-// COLOURS
-$yellow: #ced3b4;
-$pink: #b06d81;
-
-//FONT FAMILY
-$title-font: "Kavivanar";
-$font: "Montserrat", sans-serif;
-
-//FONT SIZE
-$h1: 2rem;
-$p: 1.4rem;
+@import "../stylesheets/global.scss";
 
 .contact-section {
   display: flex;
