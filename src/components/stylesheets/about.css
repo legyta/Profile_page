@@ -34,8 +34,8 @@ li {
   color: #b06d81;
 }
 .about-section h1 {
-  font-size: 2rem;
-  color: 1.6rem;
+  font-size: 1.8rem;
+  color: 1.4rem;
   font-family: "Kavivanar";
 }
 
@@ -78,7 +78,7 @@ li {
   .about-coding h1 {
     display: flex;
     justify-content: left;
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
 
   .about-section .about-hi h1 {
@@ -89,12 +89,12 @@ li {
   .about-section .about-name p {
     margin-top: 230px;
     margin-left: 40px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .about-section p {
     display: flex;
     justify-content: left;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .about-section .about-techs {
@@ -102,7 +102,7 @@ li {
     justify-content: left;
   }
   .about-section .about-techs li {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
 

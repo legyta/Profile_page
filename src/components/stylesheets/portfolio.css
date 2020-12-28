@@ -20,14 +20,14 @@
 
 .portfolio-section h1 {
   font-family: "Kavivanar";
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   margin-top: 30px;
   color: #b06d81;
 }
 
 .card-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -158,31 +158,32 @@ li {
 
   h1 {
     display: flex;
-    justify-content: center;
-    font-size: 3rem;
+    justify-content: left;
+    font-size: 2.4rem;
     margin-top: 60px;
+    margin-top: 25px;
   }
 
   .card-text {
     font-size: 1.2rem;
   }
   .projects p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .previous-experience li {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .row1 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
   }
   .row2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     margin-top: 20px;
   }
   .card1 {
@@ -214,16 +215,16 @@ li {
 
   .projects p {
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
   .previous-experience {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-top: 20px;
   }
   .previous-experience1 li {
-    margin-left: 80px;
+    margin-left: 20px;
   }
   .previous-experience2 li {
     margin-left: 50px;
