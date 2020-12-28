@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2185a4db9ebc61363845a328b95c2d7f",
+    "revision": "33b8d6eed5a0973d3470366ce1da2ffa",
     "url": "/profile/index.html"
   },
   {
-    "revision": "c0773f6e7042ec39a916",
-    "url": "/profile/static/css/main.747a5e20.chunk.css"
+    "revision": "aaa3b7f0832395ef182f",
+    "url": "/profile/static/css/main.67495ec7.chunk.css"
   },
   {
-    "revision": "3eff5429064a1b95ba1d",
-    "url": "/profile/static/js/2.35c0be1a.chunk.js"
+    "revision": "11c3ff17b46dd9be3a1e",
+    "url": "/profile/static/js/2.cfeab244.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/profile/static/js/2.35c0be1a.chunk.js.LICENSE.txt"
+    "revision": "8a137f586fcebb1a370343eb47b7677c",
+    "url": "/profile/static/js/2.cfeab244.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0773f6e7042ec39a916",
-    "url": "/profile/static/js/main.d2ff68e9.chunk.js"
+    "revision": "aaa3b7f0832395ef182f",
+    "url": "/profile/static/js/main.6338dc80.chunk.js"
   },
   {
     "revision": "e749b72ed110487a6aec",
     "url": "/profile/static/js/runtime-main.daaad5fa.js"
   },
   {
-    "revision": "1177f6634beef90a17ca5527e154d3d2",
-    "url": "/profile/static/media/CV.1177f663.pdf"
+    "revision": "38cac43fc41c92161d758e5c7457e82a",
+    "url": "/profile/static/media/CV.38cac43f.pdf"
   },
   {
     "revision": "7d58c61acb16d1850d58ee2bf5fcb9a8",
@@ -56,11 +56,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/profile/static/media/research_video.9a5a62c4.mp4"
   },
   {
+    "revision": "80f53a33ce1292d48fc3632cbcf9f5d1",
+    "url": "/profile/static/media/resume.80f53a33.PNG"
+  },
+  {
     "revision": "883d5b38c4017054cf77d7970a27f8f9",
     "url": "/profile/static/media/sissy.883d5b38.PNG"
   },
   {
     "revision": "28e08b9de418e137c75cb0745cba4556",
     "url": "/profile/static/media/sloth.28e08b9d.PNG"
+  },
+  {
+    "revision": "bb8152cbbe92812f5884d60fa0032505",
+    "url": "/profile/static/media/sofa.bb8152cb.PNG"
   }
 ]);
