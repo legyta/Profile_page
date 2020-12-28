@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.portfolio-section h1 {
+  font-family: "Kavivanar";
+  margin-bottom: 5px;
+  margin-top: 30px;
+  color: #b06d81;
+}
+
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.portfolio-section img {
+  width: 42vh;
+  border-top-left-radius: 10% 10%;
+  border-top-right-radius: 10% 10%;
+  border-bottom-right-radius: 10% 10%;
+  border-bottom-left-radius: 10% 10%;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+
+a.btn.btn-primary {
+  font-family: "Kavivanar";
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+  border-radius: 30px;
+  height: 40px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.btn.btn-primary:hover {
+  transition: 0.2s;
+  background: #ced3b4;
+}
+
+.card1 {
+  border-color: #394a4d;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.guide-button.btn.btn-primary {
+  background-color: #394a4d;
+}
+
+.card2 {
+  border-color: #b06d81;
+  border-style: solid;
+  border-radius: 30px;
+  margin-bottom: 2px;
+}
+
+.sissy-button.btn.btn-primary {
+  background-color: #b06d81;
+}
+
+.card3 {
+  border-color: #6e7048;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.groenhartig-button.btn.btn-primary {
+  background-color: #6e7048;
+}
+
+.card4 {
+  margin-bottom: 2px;
+}
+
+.card4 {
+  border-color: #d9bbb1;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.birthday-button.btn.btn-primary {
+  background-color: #d9bbb1;
+}
+
+.card5 {
+  border-color: #d5a129;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.research-button.btn.btn-primary {
+  background-color: #d5a129;
+}
+
+.card6 {
+  border-color: #47802b;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.eva-button.btn.btn-primary {
+  background-color: #47802b;
+}
+
+.projects p {
+  font-size: 1.2rem;
+}
+
+.previous-experience h1 {
+  font-family: "Kavivanar";
+  margin-bottom: 5px;
+  margin-top: 30px;
+  color: #b06d81;
+}
+
+li {
+  font-size: 1rem;
+}
+
+/* from here */
+@media screen and (min-width: 1025px) {
+  .portfolio-section img {
+    width: 98%;
+    height: 40%;
+    margin-left: 3px;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 60px;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+  }
+  .projects p {
+    font-size: 1.6rem;
+  }
+
+  .previous-experience li {
+    font-size: 1.6rem;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .card1 {
+    width: 28%;
+  }
+
+  .card2 {
+    width: 28%;
+    margin: 0 20px;
+  }
+
+  .card3 {
+    width: 28%;
+  }
+
+  .card4 {
+    width: 28%;
+  }
+
+  .card5 {
+    width: 28%;
+    margin-right: 20px;
+  }
+
+  .card6 {
+    width: 28%;
+    margin-right: 20px;
+  }
+
+  .projects p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .previous-experience {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .previous-experience1 li {
+    margin-left: 80px;
+  }
+  .previous-experience2 li {
+    margin-left: 50px;
+  }
+}
+
+/* from here new here */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .portfolio-section img {
+    width: 95%;
+    height: 35%;
+    margin-left: 5px;
+  }
+
+  .card1 {
+    width: 44%;
+  }
+  .card2 {
+    width: 44%;
+    margin: 0 10px;
+  }
+  .card3 {
+    width: 44%;
+  }
+
+  .card4 {
+    width: 44%;
+  }
+
+  .card5 {
+    width: 44%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card6 {
+    width: 44%;
+  }
+  .card-text {
+    font-size: 0.9rem;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 735px) and (max-width: 767px) {
+  .portfolio-section img {
+    width: 135vh;
+    margin-left: 3px;
+  }
+
+  .card1 {
+    width: 73%;
+    margin-top: 10px;
+  }
+
+  .card2 {
+    width: 73%;
+    margin-top: 10px;
+  }
+
+  .card3 {
+    width: 73%;
+    margin-top: 10px;
+  }
+
+  .card4 {
+    width: 73%;
+    margin-top: 10px;
+  }
+
+  .card5 {
+    width: 73%;
+    margin-top: 10px;
+  }
+  .card6 {
+    width: 73%;
+  }
+}
+
+@media screen and (min-width: 733px) and (max-width: 734px) {
+  .portfolio-section img {
+    width: 105vh;
+    margin-left: 2.5px;
+  }
+
+  .card1 {
+    width: 61%;
+    margin-top: 10px;
+  }
+
+  .card2 {
+    width: 61%;
+    margin-top: 10px;
+  }
+
+  .card3 {
+    width: 61%;
+    margin-top: 10px;
+  }
+
+  .card4 {
+    width: 61%;
+    margin-top: 10px;
+  }
+
+  .card5 {
+    width: 61%;
+    margin-top: 10px;
+  }
+  .card6 {
+    width: 61%;
+  }
+}
+
+@media screen and (min-width: 668px) and (max-width: 732px) {
+  .portfolio-section img {
+    width: 94vh;
+    margin-left: 2px;
+  }
+
+  .card1 {
+    width: 61%;
+    margin-top: 10px;
+  }
+
+  .card2 {
+    width: 61%;
+    margin-top: 10px;
+  }
+
+  .card3 {
+    width: 61%;
+    margin-top: 10px;
+  }
+
+  .card4 {
+    width: 61%;
+    margin-top: 10px;
+  }
+
+  .card5 {
+    width: 61%;
+    margin-top: 10px;
+  }
+  .card6 {
+    width: 61%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 649px) and (max-width: 667px) {
+  .portfolio-section img {
+    width: 140vh;
+    margin-left: 2px;
+  }
+
+  .card1 {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  .card2 {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  .card3 {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  .card4 {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  .card5 {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  .card6 {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 648px) {
+  .portfolio-section img {
+    width: 100vh;
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+    border-bottom-right-radius: 10% 10%;
+    border-bottom-left-radius: 10% 10%;
+    margin-left: 2px;
+    margin-top: 3px;
+  }
+
+  .card1 {
+    border-color: #b06d81;
+    border-style: solid;
+    border-radius: 30px;
+  }
+
+  .card2 {
+    border-color: #b06d81;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .card3 {
+    border-color: #b06d81;
+    border-style: solid;
+    border-radius: 30px;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 415px) {
+  .portfolio-section img {
+    width: 48vh;
+    margin-left: 5px;
+  }
+  .card1 {
+    margin-top: 10px;
+  }
+
+  .card2 {
+    margin-top: 10px;
+  }
+
+  .card3 {
+    margin-top: 10px;
+  }
+
+  .card4 {
+    margin-top: 10px;
+  }
+
+  .card5 {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 413px) {
+  .portfolio-section img {
+    width: 49vh;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 375px) {
+  .portfolio-section img {
+    width: 45%;
+  }
+
+  .card1 {
+    margin-top: 10px;
+  }
+
+  .card2 {
+    margin-top: 10px;
+  }
+
+  .card3 {
+    margin-top: 10px;
+  }
+
+  .card4 {
+    margin-top: 10px;
+  }
+
+  .card5 {
+    margin-top: 10px;
+  }
+}

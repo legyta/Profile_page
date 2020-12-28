@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+/* .contact-section .resume {
+  margin-top: -30px;
+} */
+
+.contact-section a {
+  font-family: "Kavivanar";
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #b06d81;
+}
+.contact-section a:hover {
+  color: rgb(31, 30, 30);
+}
+.contact-section h1 {
+  color: 1.6rem;
+  font-size: 2rem;
+  font-family: "Kavivanar";
+  color: #b06d81;
+}
+
+.contact-section .resume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+}
+
+.contact-section a.btn.btn-primary {
+  font-family: "Kavivanar";
+  font-size: 1rem;
+  background-color: 1.6rem;
+  color: #ced3b4;
+  text-decoration: none;
+  border-radius: 30px;
+  height: 40px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section a.btn.btn-primary:hover {
+  transition: 0.2s;
+  background: #ced3b4;
+}
+
+.social-media {
+  margin-bottom: 40px;
+}
+.social-media .git {
+  margin-left: 10px;
+}
+
+.social-svg-mask .git {
+  fill: rgb(46, 46, 46);
+}
+
+@media screen and (min-width: 1023px) {
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-top: 60px;
+  }
+
+  .contact-section a {
+    font-size: 1.2rem;
+  }
+  .contact-section h1 {
+    font-size: 2.4rem;
+  }
+  .contact-section .resume {
+    margin-top: -30px;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import aboutPhoto from "./images/aboutPhoto.jpg";
-import "./stylesheets/about.scss";
+import "./stylesheets/about.css";
 
 function About() {
   return (
@@ -15,32 +15,7 @@ function About() {
           <p>my name is Ligita</p>
         </div>{" "}
       </div>
-      <p>Junior Full Stack Web Developer</p>
-      <div className="about-coding">
-        <h1>I'm coding and learning</h1>
-      </div>
-      <div className="about-techs">
-        {" "}
-        <div className="about-techs1">
-          {" "}
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>React Native</li>
-          <li>Node.js</li>
-        </div>
-        <div className="about-techs2">
-          <li>Redux</li>
-          <li>Hooks</li>
-          <li>API</li>
-          <li>Passport.js</li>
-        </div>
-        <div className="about-techs3">
-          <li>Express.js</li>
-          <li>MySQL</li>
-          <li>Firebase</li>
-          <li>MongoDb</li>
-        </div>
-      </div>
+      <p>Junior Full Stack JavaScript Web Developer</p>
     </div>
   );
 }
