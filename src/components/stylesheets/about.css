@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+
+img {
+  border-top-left-radius: 75% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 75% 50%;
+  border-bottom-left-radius: 50% 50%;
+  height: 50%;
+  width: 50%;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+  font-family: "Kavivanar";
+}
+
+.about-section p {
+  margin-top: 56px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.about-section .about-hi h1 {
+  font-size: 6rem;
+  font-family: "Kavivanar";
+  margin-bottom: 10px;
+  color: #b06d81;
+}
+.about-section h1 {
+  font-size: 2rem;
+  color: 1.6rem;
+  font-family: "Kavivanar";
+}
+
+.about-section .about-coding h1 {
+  font-family: "Kavivanar";
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.about-section li {
+  font-size: 1rem;
+}
+
+.about-section .about-techs {
+  display: flex;
+}
+
+.about-section .about-techs2 {
+  margin-left: 20px;
+}
+.about-section .about-techs3 {
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 1025px) {
+  img {
+    height: 15%;
+    width: 15%;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .about-hi-img {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: left;
+  }
+
+  .about-coding h1 {
+    display: flex;
+    justify-content: left;
+    font-size: 3rem;
+  }
+
+  .about-section .about-hi h1 {
+    margin-top: 120px;
+    font-size: 8rem;
+  }
+
+  .about-section .about-name p {
+    margin-top: 230px;
+    margin-left: 40px;
+    font-size: 1.6rem;
+  }
+  .about-section p {
+    display: flex;
+    justify-content: left;
+    font-size: 1.6rem;
+  }
+
+  .about-section .about-techs {
+    display: flex;
+    justify-content: left;
+  }
+  .about-section .about-techs li {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  img {
+    height: 20%;
+    width: 20%;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .about-hi-img {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .about-section .about-hi h1 {
+    margin-top: 120px;
+    font-size: 8rem;
+  }
+
+  .about-section .about-name p {
+    margin-top: 230px;
+    margin-left: 40px;
+    font-size: 1.5rem;
+  }
+
+  .about-section p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  img {
+    height: 25%;
+    width: 25%;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .about-hi-img {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .about-section .about-hi h1 {
+    margin-top: 80px;
+  }
+
+  .about-section .about-name p {
+    margin-top: 160px;
+    margin-left: 40px;
+  }
+
+  .about-name p {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+
+  .about-section p {
+    font-size: 1.4rem;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .about-section .about-hi h1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .about-section img {
+    margin-top: 1px;
+  }
+
+  .about-name p {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+
+  .about-section p {
+    font-size: 1.4rem;
+    margin-top: 30px;
+  }
+}
