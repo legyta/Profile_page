@@ -10,47 +10,29 @@ import groenhartig from "./images/groenhartig.PNG";
 import research from "./images/research.PNG";
 import research_video from "./images/research_video.mp4";
 import eva from "./images/eva.PNG";
+import emotus from "./images/emotus.PNG";
+import act from "./images/act.PNG";
 import "./stylesheets/portfolio.css";
 
 function Portfolio() {
   return (
     <div className="portfolio-section">
       <h1>Check out my work:</h1>
+      <h2>Full-stack</h2>
 
       <div className="row1">
         <Card className="card6">
-          <Card.Img variant="top" src={sofa} />
+          <Card.Img variant="top" src={act} />
           <Card.Body>
-            <Card.Title className="card-title">Coming up</Card.Title>
+            <Card.Title className="card-title">
+              Social action web-app
+            </Card.Title>
             <Card.Text>
-              Projects in development:
-              <li>- The Sofa Project (nodejs, reactjs)</li>
-              <li>- ActUp (fullstack web app)</li>
-              <li>- Collaboration on WP sites</li>
+              <li>(Currently in development)</li>
+              <li>MERN stack</li>
+              <li>Material-UI design</li>
             </Card.Text>
-            {/* <Button
-              className="eva-button"
-              href="https://eva-serra.netlify.app/"
-            >
-              Check out
-            </Button> */}
-          </Card.Body>
-        </Card>
-
-        <Card className="card5">
-          <Card.Img variant="top" src={eva} />
-          <Card.Body>
-            <Card.Title className="card-title">Portfolio website</Card.Title>
-            <Card.Text>
-              Built in React.js for a friend. Learnt:
-              <li>- EmailJS integration</li>
-              <li>- Drawing SVG files</li>
-              <li>- Concept to reality development</li>
-            </Card.Text>
-            <Button
-              className="research-button"
-              href="https://www.evapsychotherapy.com/"
-            >
+            <Button className="act-button" href="https://act-up.herokuapp.com/">
               Check out
             </Button>
           </Card.Body>
@@ -59,50 +41,76 @@ function Portfolio() {
         <Card className="card4">
           <Card.Img variant="top" src={research} />
           <Card.Body>
-            <Card.Title className="card-title">Fullstack website</Card.Title>
+            <Card.Title className="card-title">
+              Media research project
+            </Card.Title>
             <Card.Text>
-              Built for media research project. Learnt:
-              <li>- Passing data front to backend</li>
-              <li>- Redux (state management)</li>
-              <li>- Slider for data recording</li>
+              <li>Collecting user data</li>
+              <li>Redux (state management)</li>
+              <li>Slider for data recording</li>
             </Card.Text>
-            <Button className="birthday-button" href={research_video}>
+            <Button className="research-button" href={research_video}>
               Check out
             </Button>
           </Card.Body>
         </Card>
       </div>
+      <h2>Frontend</h2>
+
       <div className="row2">
-        <Card className="card3">
-          <Card.Img variant="top" src={birthday} />
+        <Card className="card6">
+          <Card.Img variant="top" src={sofa} />
           <Card.Body>
-            <Card.Title className="card-title">React.js web app</Card.Title>
+            <Card.Title className="card-title">The Sofa Project</Card.Title>
             <Card.Text>
-              Demo of birthday web app for my sister.
-              <li>- Using external libraries</li>
-              <li>- Routing</li>
-              <li>- Deployment</li>
+              <li>(Currently in development)</li>
+              <li>React.js</li>
+              <li>Concept to reality development</li>
             </Card.Text>
             <Button
-              className="groenhartig-button"
-              href="https://funstuff.netlify.app/"
+              className="sofa-button"
+              href="https://thesofaproject.netlify.app/"
             >
               Check out
             </Button>
           </Card.Body>
         </Card>
 
-        <Card className="card2">
-          <Card.Img variant="top" src={groenhartig} />
+        <Card className="card5">
+          <Card.Img variant="top" src={eva} />
           <Card.Body>
-            <Card.Title className="card-title">Wordpress e-commerce</Card.Title>
+            <Card.Title className="card-title">
+              Psychotherapist profile
+            </Card.Title>
             <Card.Text>
-              Built for an organic farm of a friend.
-              <li>- Working with Wordpress</li>
-              <li>- Styling with custom css</li>
-              <li>- Power of plugins on WP</li>
+              <li>EmailJS integration</li>
+              <li>Drawing SVG files</li>
+              <li>Concept to reality development</li>
             </Card.Text>
-            <Button className="sissy-button" href="https://groen-hartig.nl/">
+            <Button
+              className="eva-button"
+              href="https://www.evapsychotherapy.com/"
+            >
+              Check out
+            </Button>
+          </Card.Body>
+        </Card>
+
+        <Card className="card3">
+          <Card.Img variant="top" src={birthday} />
+          <Card.Body>
+            <Card.Title className="card-title">
+              Demo of birthday gift
+            </Card.Title>
+            <Card.Text>
+              <li>Using external libraries</li>
+              <li>Routing</li>
+              <li>Deployment</li>
+            </Card.Text>
+            <Button
+              className="birthday-button"
+              href="https://funstuff.netlify.app/"
+            >
               Check out
             </Button>
           </Card.Body>
@@ -111,15 +119,14 @@ function Portfolio() {
         <Card className="card1">
           <Card.Img variant="top" src={sissy} />
           <Card.Body>
-            <Card.Title>React + API website</Card.Title>
+            <Card.Title>Sissy The Panda</Card.Title>
             <Card.Text className="card-text">
-              2nd group project at Wild Code School.
-              <li>- Fetching data from API</li>
-              <li>- Routing React components</li>
-              <li>- Deployment</li>
+              <li>Group project at dev course</li>
+              <li>React.js, routing, deployment</li>
+              <li>Fetching data from API</li>
             </Card.Text>
             <Button
-              className="guide-button"
+              className="sissy-button"
               href="https://sissythepanda.netlify.com"
             >
               Check out
@@ -128,18 +135,42 @@ function Portfolio() {
         </Card>
       </div>
 
-      <h1>Previously in life, I have also been</h1>
+      <h2>WordPress</h2>
+      <div className="row2">
+        <Card className="card3">
+          <Card.Img variant="top" src={emotus} />
+          <Card.Body>
+            <Card.Title className="card-title">
+              Psychology practice in Amsterdam
+            </Card.Title>
+            <Card.Text>
+              <li>Collaboration project</li>
+              <li>Finalised the style and structure</li>
+            </Card.Text>
+            <Button className="emotus-button" href="https://emotus.care/">
+              Check out
+            </Button>
+          </Card.Body>
+        </Card>
 
-      <div className="previous-experience">
-        <div className="previous-experience1">
-          {" "}
-          <li>- Global Pricing Analyst</li>
-          <li>- Data Analyst Intern</li>
-        </div>
-        <div className="previous-experience2">
-          <li>- Healthcare Comm Intern</li>
-          <li>- Pharmaceutical Chemistry Student</li>
-        </div>
+        <Card className="card2">
+          <Card.Img variant="top" src={groenhartig} />
+          <Card.Body>
+            <Card.Title className="card-title">
+              Organic vegetables farm in Amsterdam
+            </Card.Title>
+            <Card.Text>
+              <li>Collaboration project</li>
+              <li>Highly involved in building the site</li>
+            </Card.Text>
+            <Button
+              className="groenhartig-button"
+              href="https://groen-hartig.nl/"
+            >
+              Check out
+            </Button>
+          </Card.Body>
+        </Card>
       </div>
     </div>
   );

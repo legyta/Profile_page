@@ -15,7 +15,7 @@ function About() {
           <p>my name is Ligita</p>
         </div>{" "}
       </div>
-      <p>Junior Full Stack JavaScript Web Developer</p>
+      <p>Junior JavaScript Web Developer</p>
     </div>
   );
 }

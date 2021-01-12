@@ -22,7 +22,7 @@
   font-family: "Kavivanar";
   margin-bottom: 25px;
   margin-top: 30px;
-  color: #b06d81;
+  color: #2c5606;
 }
 
 .card-title {
@@ -39,7 +39,7 @@
 }
 
 .portfolio-section img {
-  width: 42vh;
+  width: 48vh;
   border-top-left-radius: 10% 10%;
   border-top-right-radius: 10% 10%;
   border-bottom-right-radius: 10% 10%;
@@ -65,38 +65,38 @@ a.btn.btn-primary {
 }
 a.btn.btn-primary:hover {
   transition: 0.2s;
-  background: #ced3b4;
+  background: #2c5606;
 }
 
 .card1 {
-  border-color: #394a4d;
+  border-color: #2c5606;
   border-style: solid;
   border-radius: 30px;
-}
-
-.guide-button.btn.btn-primary {
-  background-color: #394a4d;
-}
-
-.card2 {
-  border-color: #b06d81;
-  border-style: solid;
-  border-radius: 30px;
-  margin-bottom: 2px;
 }
 
 .sissy-button.btn.btn-primary {
   background-color: #b06d81;
 }
 
-.card3 {
-  border-color: #6e7048;
+.card2 {
+  border-color: #2c5606;
   border-style: solid;
   border-radius: 30px;
+  margin-bottom: 2px;
 }
 
 .groenhartig-button.btn.btn-primary {
   background-color: #6e7048;
+}
+
+.card3 {
+  border-color: #2c5606;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.emotus-button.btn.btn-primary {
+  background-color: #ccc5b9;
 }
 
 .card4 {
@@ -104,7 +104,7 @@ a.btn.btn-primary:hover {
 }
 
 .card4 {
-  border-color: #d9bbb1;
+  border-color: #2c5606;
   border-style: solid;
   border-radius: 30px;
 }
@@ -114,7 +114,7 @@ a.btn.btn-primary:hover {
 }
 
 .card5 {
-  border-color: #d5a129;
+  border-color: #2c5606;
   border-style: solid;
   border-radius: 30px;
 }
@@ -124,13 +124,21 @@ a.btn.btn-primary:hover {
 }
 
 .card6 {
-  border-color: #47802b;
+  border-color: #2c5606;
   border-style: solid;
   border-radius: 30px;
 }
 
 .eva-button.btn.btn-primary {
   background-color: #47802b;
+}
+
+.sofa-button.btn.btn-primary {
+  background-color: #b6351f;
+}
+
+.act-button.btn.btn-primary {
+  background-color: #5ad1db;
 }
 
 .projects p {
@@ -186,6 +194,7 @@ li {
     justify-content: left;
     margin-top: 20px;
   }
+
   .card1 {
     width: 28%;
   }
@@ -197,20 +206,22 @@ li {
 
   .card3 {
     width: 28%;
+    margin-right: 5px;
   }
 
   .card4 {
     width: 28%;
+    margin: 0 20px;
   }
 
   .card5 {
     width: 28%;
-    margin-right: 20px;
+    margin-right: 5px;
   }
 
   .card6 {
     width: 28%;
-    margin-right: 20px;
+    margin-right: 5px;
   }
 
   .projects p {
@@ -232,7 +243,7 @@ li {
 }
 
 /* from here new here */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 985px) and (max-width: 1024px) {
   .portfolio-section img {
     width: 95%;
     height: 35%;
@@ -241,6 +252,7 @@ li {
 
   .card1 {
     width: 44%;
+    margin-left: 5px;
   }
   .card2 {
     width: 44%;
@@ -256,8 +268,8 @@ li {
 
   .card5 {
     width: 44%;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   .card6 {
     width: 44%;
@@ -282,38 +294,102 @@ li {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 984px) {
+  .portfolio-section img {
+    width: 95%;
+    height: 35%;
+    margin-left: 5px;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card1 {
+    width: 44%;
+  }
+  .card2 {
+    width: 44%;
+    margin-left: 10px;
+  }
+  .card3 {
+    width: 44%;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .card4 {
+    width: 44%;
+    margin-left: 10px;
+  }
+
+  .card5 {
+    width: 44%;
+  }
+  .card6 {
+    width: 44%;
+    margin-right: 5px;
+  }
+  .card-text {
+    font-size: 0.7rem;
+  }
+  li {
+    font-size: 0.8rem;
+  }
+  .card-title {
+    font-size: 0.9rem;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  .portfolio-section img {
+    width: 30vh;
+    margin-left: 3px;
+  }
+}
+
 @media screen and (min-width: 735px) and (max-width: 767px) {
   .portfolio-section img {
-    width: 135vh;
+    width: 98vh;
     margin-left: 3px;
   }
 
   .card1 {
-    width: 73%;
+    width: 53%;
     margin-top: 10px;
   }
 
   .card2 {
-    width: 73%;
+    width: 53%;
     margin-top: 10px;
   }
 
   .card3 {
-    width: 73%;
+    width: 53%;
     margin-top: 10px;
   }
 
   .card4 {
-    width: 73%;
+    width: 53%;
     margin-top: 10px;
   }
 
   .card5 {
-    width: 73%;
+    width: 53%;
     margin-top: 10px;
   }
   .card6 {
-    width: 73%;
+    width: 53%;
   }
 }
 
@@ -390,7 +466,7 @@ li {
 
 @media screen and (min-width: 649px) and (max-width: 667px) {
   .portfolio-section img {
-    width: 140vh;
+    width: 240vh;
     margin-left: 2px;
   }
 
@@ -436,13 +512,13 @@ li {
   }
 
   .card1 {
-    border-color: #b06d81;
+    border-color: #2c5606;
     border-style: solid;
     border-radius: 30px;
   }
 
   .card2 {
-    border-color: #b06d81;
+    border-color: #2c5606;
     border-style: solid;
     border-radius: 30px;
     margin-top: 2px;
@@ -450,7 +526,7 @@ li {
   }
 
   .card3 {
-    border-color: #b06d81;
+    border-color: #2c5606;
     border-style: solid;
     border-radius: 30px;
     width: 65%;
@@ -487,11 +563,33 @@ li {
   .portfolio-section img {
     width: 49vh;
   }
+  .card1 {
+    margin-top: 10px;
+  }
+
+  .card2 {
+    margin-top: 10px;
+  }
+
+  .card3 {
+    margin-top: 10px;
+  }
+
+  .card4 {
+    margin-top: 10px;
+  }
+
+  .card5 {
+    margin-top: 10px;
+  }
+  .card6 {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 375px) {
   .portfolio-section img {
-    width: 45%;
+    width: 48vh;
   }
 
   .card1 {
@@ -511,6 +609,9 @@ li {
   }
 
   .card5 {
+    margin-top: 10px;
+  }
+  .card6 {
     margin-top: 10px;
   }
 }
