@@ -9,7 +9,7 @@ function About() {
         <div className="about-hi">
           <h1>Hi!</h1>
         </div>
-        <img src={aboutPhoto} alt="profile-photo" />
+        <img className="aboutImage" src={aboutPhoto} alt="profile-photo" />
         <div className="about-name">
           {" "}
           <p>my name is Ligita</p>

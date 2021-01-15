@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Roboto&display=swap");
 
 .contact-section {
   display: flex;
@@ -8,7 +7,7 @@
 }
 
 .contact-section a {
-  font-family: "Kavivanar";
+  font-family: "Arvo";
   font-size: 1.2rem;
   text-decoration: none;
   color: #2c5606;
@@ -19,7 +18,7 @@
 .contact-section h1 {
   color: 1.4rem;
   font-size: 2rem;
-  font-family: "Kavivanar";
+  font-family: "Arvo";
   color: #2c5606;
 }
 
@@ -35,7 +34,7 @@
 }
 
 .contact-section a.btn.btn-primary {
-  font-family: "Kavivanar";
+  font-family: "Arvo";
   font-size: 1rem;
   background-color: 1.4rem;
   color: #ced3b4;

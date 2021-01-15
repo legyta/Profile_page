@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Roboto&display=swap");
 
-img {
+.about-section .about-hi-img .aboutImage {
   border-top-left-radius: 75% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 75% 50%;
   border-bottom-left-radius: 50% 50%;
-  height: 50%;
-  width: 50%;
+  height: 15%;
+  width: 15%;
 }
 
 .about-section {
@@ -16,7 +15,7 @@ img {
   margin-left: 20px;
   margin-right: 20px;
   text-align: left;
-  font-family: "Kavivanar";
+  font-family: "Arvo";
 }
 
 .about-section p {
@@ -28,19 +27,19 @@ li {
 }
 
 .about-section .about-hi h1 {
-  font-size: 6rem;
-  font-family: "Kavivanar";
+  font-size: 3rem;
+  font-family: "Arvo";
   margin-bottom: 10px;
   color: #2c5606;
 }
 .about-section h1 {
   font-size: 1.8rem;
   color: 1.4rem;
-  font-family: "Kavivanar";
+  font-family: "Arvo";
 }
 
 .about-section .about-coding h1 {
-  font-family: "Kavivanar";
+  font-family: "Arvo";
   margin-bottom: 5px;
   margin-top: 30px;
 }
@@ -83,7 +82,7 @@ li {
 
   .about-section .about-hi h1 {
     margin-top: 120px;
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .about-section .about-name p {
@@ -170,8 +169,13 @@ li {
 }
 
 @media screen and (min-width: 375px) and (max-width: 414px) {
+  .about-section .about-hi-img .aboutImage {
+    height: 45%;
+    width: 45%;
+  }
+
   .about-section .about-hi h1 {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 0px;
   }
 
