@@ -95,7 +95,8 @@ function Portfolio() {
             </Button>
           </Card.Body>
         </Card>
-
+      </div>
+      <div className="row2">
         <Card className="card3">
           <Card.Img variant="top" src={birthday} />
           <Card.Body>
