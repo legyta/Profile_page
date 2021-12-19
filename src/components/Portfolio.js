@@ -21,23 +21,6 @@ function Portfolio() {
       <h2>Full-stack</h2>
 
       <div className="row1">
-        <Card className="card6">
-          <Card.Img variant="top" src={act} />
-          <Card.Body>
-            <Card.Title className="card-title">
-              Social action web-app
-            </Card.Title>
-            <Card.Text>
-              <li>(Currently in development)</li>
-              <li>MERN stack</li>
-              <li>Material-UI design</li>
-            </Card.Text>
-            <Button className="act-button" href="https://act-up.herokuapp.com/">
-              Check out
-            </Button>
-          </Card.Body>
-        </Card>
-
         <Card className="card4">
           <Card.Img variant="top" src={research} />
           <Card.Body>
@@ -83,9 +66,10 @@ function Portfolio() {
               Psychotherapist profile
             </Card.Title>
             <Card.Text>
-              <li>EmailJS integration</li>
+              <li>Currently offline</li>
+              {/* <li>EmailJS integration</li>
               <li>Drawing SVG files</li>
-              <li>Concept to reality development</li>
+              <li>Concept to reality development</li> */}
             </Card.Text>
             <Button
               className="eva-button"
