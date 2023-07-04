@@ -13,33 +13,18 @@ import eva from "./images/eva.PNG";
 import emotus from "./images/emotus.PNG";
 import act from "./images/act.PNG";
 import "./stylesheets/portfolio.css";
+import "./stylesheets/about.css";
 
 function Portfolio() {
   return (
     <div className="portfolio-section">
-      <h1>Check out my work:</h1>
-      <h2>Full-stack</h2>
-
-      <div className="row1">
-        <Card className="card4">
-          <Card.Img variant="top" src={research} />
-          <Card.Body>
-            <Card.Title className="card-title">
-              Media research project
-            </Card.Title>
-            <Card.Text>
-              <li>Collecting user data</li>
-              <li>Redux (state management)</li>
-              <li>Slider for data recording</li>
-            </Card.Text>
-            <Button className="research-button" href={research_video}>
-              Check out
-            </Button>
-          </Card.Body>
-        </Card>
+      {/* <p>Below is the display of the sites I have developed:</p> */}
+      <div className="about-hi-portfolio">
+        <h1>My work</h1>
       </div>
-      <h2>Frontend</h2>
-
+      <ol className="list-coded">
+        <li> Custom coded</li>
+      </ol>
       <div className="row2">
         <Card className="card6">
           <Card.Img variant="top" src={sofa} />
@@ -58,8 +43,7 @@ function Portfolio() {
             </Button>
           </Card.Body>
         </Card>
-
-        <Card className="card5">
+        {/* <Card className="card5">
           <Card.Img variant="top" src={eva} />
           <Card.Body>
             <Card.Title className="card-title">
@@ -70,15 +54,16 @@ function Portfolio() {
               {/* <li>EmailJS integration</li>
               <li>Drawing SVG files</li>
               <li>Concept to reality development</li> */}
-            </Card.Text>
-            <Button
+        {/* </Card.Text> */}
+        {/* <Button
               className="eva-button"
               href="https://www.evapsychotherapy.com/"
             >
               Check out
             </Button>
           </Card.Body>
-        </Card>
+        </Card> */}{" "}
+        */
       </div>
       <div className="row2">
         <Card className="card3">
@@ -101,7 +86,7 @@ function Portfolio() {
           </Card.Body>
         </Card>
 
-        <Card className="card1">
+        {/* <Card className="card1">
           <Card.Img variant="top" src={sissy} />
           <Card.Body>
             <Card.Title>Sissy The Panda</Card.Title>
@@ -117,12 +102,16 @@ function Portfolio() {
               Check out
             </Button>
           </Card.Body>
-        </Card>
+        </Card> */}
+      </div>
+      <div className="wordpress">
+        <ol className="list-coded">
+          <li>WordPress</li>
+        </ol>
       </div>
 
-      <h2>WordPress</h2>
       <div className="row2">
-        <Card className="card3">
+        {/* <Card className="card3">
           <Card.Img variant="top" src={emotus} />
           <Card.Body>
             <Card.Title className="card-title">
@@ -136,9 +125,9 @@ function Portfolio() {
               Check out
             </Button>
           </Card.Body>
-        </Card>
+        </Card> */}
 
-        <Card className="card2">
+        {/* <Card className="card2">
           <Card.Img variant="top" src={groenhartig} />
           <Card.Body>
             <Card.Title className="card-title">
@@ -155,7 +144,10 @@ function Portfolio() {
               Check out
             </Button>
           </Card.Body>
-        </Card>
+        </Card> */}
+      </div>
+      <div className="about-hi-contact">
+        <h1>Contact</h1>
       </div>
     </div>
   );

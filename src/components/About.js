@@ -1,5 +1,6 @@
 import React from "react";
 import aboutPhoto from "./images/aboutPhoto.jpg";
+import bubbles from "./images/bubbles.JPG";
 import "./stylesheets/about.css";
 
 function About() {
@@ -12,10 +13,55 @@ function About() {
         <img className="aboutImage" src={aboutPhoto} alt="profile-photo" />
         <div className="about-name">
           {" "}
-          <p>my name is Ligita</p>
+          <p>
+            My name is Ligita and I develop websites on freelance basis.
+            <br></br>
+            <br></br>I also guide through the journey of building the website
+            yourself.
+          </p>
         </div>{" "}
       </div>
-      <p>Junior JavaScript Web Developer</p>
+
+      <div className="bubblesImage">
+        <img className="bubblesImage" src={bubbles} alt="profile-photo" />
+      </div>
+
+      <div>
+        <h2>Mission</h2>
+        <p>
+          Making the website for myself or others is nurturing the idea,
+          comtemplating what works, reflecting your truth, values and drive
+          towards your goal. It's about the process which births the idea and
+          concept with no rush. At its own time.
+        </p>
+
+        <h2>Vision</h2>
+        <p>
+          Collaborating with people to bring their potential out for the
+          wildest, most creative idea they believe in. <br></br>Using my skills
+          to bring this idea into the world.
+        </p>
+
+        <h2>Values</h2>
+        <p>Flow. Collaboration. Responsibility.</p>
+      </div>
+
+      <div className="bubblesImage">
+        <img className="bubblesImage" src={bubbles} alt="profile-photo" />
+      </div>
+      <div className="about-work">
+        <p>The following is the work I do:</p>
+        <ol>
+          <li> Building custom coded websites</li>
+          <li> Building WordPress sites </li>
+          <li> Redesigning the existing projects</li>
+          <li> Technical assistance on the existing websites</li>
+          <li> Guidance while building site yourself</li>
+        </ol>
+      </div>
+      <h3 className="about-slogan">
+        I help you turn the idea of the website into reality
+      </h3>
     </div>
   );
 }

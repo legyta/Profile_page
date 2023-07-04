@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
 
 .contact-section {
   display: flex;
@@ -7,10 +7,10 @@
 }
 
 .contact-section a {
-  font-family: "Arvo";
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.2rem;
   text-decoration: none;
-  color: #2c5606;
+  color: #25a18e;
 }
 .contact-section a:hover {
   color: rgb(31, 30, 30);
@@ -18,8 +18,55 @@
 .contact-section h1 {
   color: 1.4rem;
   font-size: 2rem;
-  font-family: "Arvo";
-  color: #2c5606;
+  font-family: 'Oswald', sans-serif;
+  color: #25a18e;
+}
+
+.button-form-section {
+display: flex;
+flex-direction: row;
+font-size: 1.2rem;
+margin-top: -40px;
+}
+
+
+.call-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:40px 20px 0px 20px
+}
+
+.call-button .button {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  color: #000;
+  height: 40px;
+  width: 145%;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 45%;
+  background-color: #25a18e;
+  border:none;
+  }
+
+.call-button .button:hover {
+background-color: #00a5cf;
+}
+
+.call-button a {
+  text-decoration: none;
+}
+
+
+.form-section {
+    display: flex;
+  flex-direction: column;
+  margin:40px 40px 0px 20px  
 }
 
 .contact-section .resume {
@@ -34,7 +81,7 @@
 }
 
 .contact-section a.btn.btn-primary {
-  font-family: "Arvo";
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
   background-color: 1.4rem;
   color: #ced3b4;
@@ -66,6 +113,12 @@
   fill: rgb(46, 46, 46);
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+.call-button .button{
+    width: 130%;
+  }
+}
+
 @media screen and (min-width: 1023px) {
   .contact-section {
     display: flex;
@@ -82,5 +135,53 @@
   }
   .contact-section .resume {
     margin-top: -20px;
+  }
+}
+
+
+@media screen and (min-width: 734px) and (max-width: 767px) {
+.call-button .button{
+    width: 150%;
+  }
+}
+
+@media screen and (min-width: 684px) and (max-width: 733px) {
+ .call-button .button{
+    width: 130%;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 683px) {
+.call-button .button{
+    width: 130%;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 666px) {
+
+.call-button .button{
+    width: 105%;
+  }
+
+  .button-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+.call-button .button{
+    width: 125%;
+  }
+
+  .button-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form-description{
+    margin-top: -30px;
   }
 }
