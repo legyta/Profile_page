@@ -12,7 +12,6 @@
 .App {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
   text-align: left;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -27,11 +26,17 @@
   margin-bottom: 10px;
 }
 
+.card {
+  width:18rem !important;
+  height: 25rem;
+}
+
 .card-title {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.4rem;
   margin-left: 10px;
   margin-top: 10px;
+  color:#363636;
 }
 
 .card-text {
@@ -41,52 +46,34 @@
 }
 
 .portfolio-section img {
-  width: 42vh;
-  margin-left: 4px;
-  margin-top: 3px;
-  border-radius: 20%;
+  margin: 0px 0px 0px 0px;
 }
 
 a.btn.btn-primary {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
-  color: #000;
+  color: #fdcf00;
   text-decoration: none;
   height: 40px;
   width: 40%;
   margin: auto;
-  margin-bottom: 5%;
-  margin-top: 5%;
+  margin-bottom: 20px; 
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 45%;
+  border-radius: 5%;
 }
+
 a.btn.btn-primary:hover {
   transition: 0.2s;
   background: #2c5606;
 }
 
-.card1 {
-  border-color: #00a5cf;
-  border-radius: 20%;
-  border-style: solid;
-  border-width: 0.1rem;
-}
-
 .sissy-button.btn.btn-primary {
-  background-color: #9fffcb;
+  background-color: #25a18e;
 }
 .sissy-button.btn.btn-primary:hover {
   background: #00a5cf;
-}
-
-.card2 {
-  border-color: #9fffcb;
-  border-radius: 20%;
-  border-style: solid;
-  border-width: 0.1rem;
-  margin-bottom: 2px;
 }
 
 .groenhartig-button.btn.btn-primary {
@@ -94,30 +81,15 @@ a.btn.btn-primary:hover {
 }
 
 .groenhartig-button.btn.btn-primary:hover {
-  background-color: #9fffcb;;
-}
-
-.card3 {
-  border-color: #00a5cf;
-  border-radius: 20%;
-  border-style: solid;
-  border-width: 0.1rem;
+  background-color: #25a18e;;
 }
 
 .emotus-button.btn.btn-primary {
-  background-color: #9fffcb;
+  background-color: #25a18e;
 }
 
 .emotus-button.btn.btn-primary:hover {
   background-color: #00a5cf;
-}
-
-.card4 {
-  border-color: #2c5606;
-  border-radius: 20%;
-  border-style: solid;
-  margin-bottom: 2px;
-  border-width: 0.1rem;
 }
 
 .birthday-button.btn.btn-primary {
@@ -125,40 +97,36 @@ a.btn.btn-primary:hover {
 }
 
 .birthday-button.btn.btn-primary:hover {
-  background-color: #9fffcb;
-}
-
-.card5 {
-  border-color: #9fffcb;
-  border-radius: 20%;
-  border-style: solid;
-  border-width: 0.1rem;
+  background-color: #25a18e;
 }
 
 .research-button.btn.btn-primary {
   background-color: #d5a129;
 }
 
-.card6 {
-  border-color: #00a5cf;
-  border-radius: 20%;
-  border-style: solid;
-  border-width: 0.1rem;
+.eva-button.btn.btn-primary {
+  background-color: #fdcf00;
+  color: #890f54;
 }
 
-.eva-button.btn.btn-primary {
-  background-color: #00a5cf;
-}
 .eva-button.btn.btn-primary:hover {
-  background-color: #9fffcb;
+  background-color: #890f54;
+  /* border: solid;
+  border-color: #fdcf00 ; */
+  color: #fdcf00;
 }
+
 
 .sofa-button.btn.btn-primary {
-  background-color: #9fffcb;
+  background-color: #890f54;
 }
 .sofa-button.btn.btn-primary:hover {
-  background-color: #00a5cf;
+  background-color: #fdcf00;
+  /* border: solid; */
+  /* border-color: #890f54 ; */
+  color: #890f54;
 }
+
 
 .act-button.btn.btn-primary {
   background-color: #5ad1db;
@@ -186,10 +154,8 @@ li {
 /* Responsive */
 @media screen and (min-width: 1025px) {
   .portfolio-section img {
-    width: 98%;
-    height: 40%;
-    margin-left: 3px;
-    border-radius: 40%;
+    width: 100%;
+    height: 50%;
   }
 
   h1 {
@@ -220,12 +186,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    margin-top: 10px;
-  }
-
-  .card1 {
-    width: 28%;
-    margin: 0 20px;
+    margin-top: 20px;
   }
 
   .card2 {
@@ -234,20 +195,6 @@ li {
   }
 
   .card3 {
-    width: 28%;
-    margin-right: 5px;
-  }
-
-  .card4 {
-    width: 28%;
-  }
-
-  .card5 {
-    width: 28%;
-    margin: 0 20px;
-  }
-
-  .card6 {
     width: 28%;
     margin-right: 5px;
   }
@@ -273,35 +220,20 @@ li {
 /* from here new here */
 @media screen and (min-width: 985px) and (max-width: 1024px) {
   .portfolio-section img {
-    width: 95%;
-    height: 35%;
-    margin-left: 5px;
+    width: 100%;
+    height:50%;
   }
 
-  .card1 {
-    width: 44%;
-    margin-left: 5px;
-  }
   .card2 {
     width: 44%;
     margin: 0 10px;
+    height: 28rem !important;
   }
   .card3 {
     width: 44%;
+    height: 28rem !important;
   }
-
-  .card4 {
-    width: 44%;
-  }
-
-  .card5 {
-    width: 44%;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .card6 {
-    width: 44%;
-  }
+  
   .card-text {
     font-size: 0.9rem;
   }
@@ -320,12 +252,16 @@ li {
     justify-content: left;
     margin-top: 20px;
   }
+
+  .about-hi-contact h1{
+    margin-top: 40px !important;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 984px) {
   .portfolio-section img {
-    width: 30vh;
-    margin-left: 5px;
+    width: 100%;
+    height: 50%;
   }
 
   .row2 {
@@ -333,40 +269,44 @@ li {
     flex-direction: column;
   }
 
-  .card1 {
-    width: 44%;
-  }
   .card2 {
     width: 44%;
     margin-left: 10px;
+    height: 25rem !important;
   }
   .card3 {
     width: 44%;
     margin-right: 5px;
     margin-left: 5px;
+    height: 25rem !important;
   }
 
-  .card4 {
-    width: 44%;
-  }
-
-  .card5 {
-    width: 44%;
-  }
-  .card6 {
-    width: 44%;
-    margin-right: 5px;
-  }
   .card-text {
     font-size: 0.7rem;
   }
   li {
-    font-size: 0.8rem;
+    font-size:1rem; 
   }
   .card-title {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 38px;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 38px;
+  }
+}
+
+@media screen and (min-width: 735px) and (max-width: 767px) {
   .row1 {
     display: flex;
     flex-direction: row;
@@ -378,17 +318,10 @@ li {
     justify-content: left;
     margin-top: 20px;
   }
-}
 
-@media screen and (min-width: 735px) and (max-width: 767px) {
   .portfolio-section img {
-    width: 98vh;
-    margin-left: 3px;
-  }
-
-  .card1 {
-    width: 53%;
-    margin-top: 10px;
+    width: 100%;
+    height: 50%;
   }
 
   .card2 {
@@ -399,31 +332,27 @@ li {
   .card3 {
     width: 53%;
     margin-top: 10px;
+    margin-right: 20px;
   }
-
-  .card4 {
-    width: 53%;
-    margin-top: 10px;
-  }
-
-  .card5 {
-    width: 53%;
-    margin-top: 10px;
-  }
-  .card6 {
-    width: 53%;
-  }
-}
+ }
 
 @media screen and (min-width: 733px) and (max-width: 734px) {
-  .portfolio-section img {
-    width: 105vh;
-    margin-left: 2.5px;
+  .row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
-  .card1 {
-    width: 61%;
-    margin-top: 10px;
+  .row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .portfolio-section img {
+    width: 100%;
+    height: 50%;
   }
 
   .card2 {
@@ -434,32 +363,36 @@ li {
   .card3 {
     width: 61%;
     margin-top: 10px;
+    margin-right: 20px;
   }
 
-  .card4 {
-    width: 61%;
-    margin-top: 10px;
+  .cardSofa{
+    margin-right: 20px;
   }
 
-  .card5 {
-    width: 61%;
-    margin-top: 10px;
-  }
-  .card6 {
-    width: 61%;
-  }
 }
 
 @media screen and (min-width: 669px) and (max-width: 732px) {
-  .portfolio-section img {
-    width: 94vh;
-    margin-left: 2px;
+
+  .row1{
+    display: flex;
+    flex-direction: row;
   }
 
-  .card1 {
-    width: 61%;
-    margin-top: 10px;
+  .row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
   }
+
+  .portfolio-section img {
+    height: 50%;
+    width: 100%;
+  }
+
+.cardSofa{
+  margin-right: 20px;
+}
 
   .card2 {
     width: 61%;
@@ -469,33 +402,28 @@ li {
   .card3 {
     width: 61%;
     margin-top: 10px;
+    margin-right: 20px;
   }
 
-  .card4 {
-    width: 61%;
-    margin-top: 10px;
-  }
-
-  .card5 {
-    width: 61%;
-    margin-top: 10px;
-  }
-  .card6 {
-    width: 61%;
-    margin-top: 10px;
-  }
 }
 
 @media screen and (min-width: 649px) and (max-width: 668px) {
-  .portfolio-section img {
-    width: 140vh;
-    margin-left: 2px;
+
+  .row1{
+    display: flex;
+    flex-direction: row;
   }
 
-  .card1 {
-    width: 75%;
-    margin-top: 10px;
+  .row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
   }
+
+  .portfolio-section img {
+    width: 100%;
+    height: 50%;
+    }
 
   .card2 {
     width: 75%;
@@ -505,20 +433,11 @@ li {
   .card3 {
     width: 75%;
     margin-top: 10px;
+    margin-right: 20px;   
   }
 
-  .card4 {
-    width: 75%;
-    margin-top: 10px;
-  }
-
-  .card5 {
-    width: 75%;
-    margin-top: 10px;
-  }
-
-  .card6 {
-    width: 75%;
+  .cardSofa{
+    margin-right: 20px;
   }
 }
 
@@ -527,12 +446,6 @@ li {
     width: 100vh;
     margin-left: 2px;
     margin-top: 3px;
-  }
-
-  .card1 {
-    border-color: #2c5606;
-    border-radius: 20%;
-    border-style: solid;
   }
 
   .card2 {
@@ -553,10 +466,11 @@ li {
 
 @media screen and (min-width: 414px) and (max-width: 415px) {
   .portfolio-section img {
-    width: 48vh;
-    margin-left: 5px;
-  }
-  .card1 {
+    width: 100%;
+    height: 50%;
+    }
+
+  .card {
     margin-top: 10px;
   }
 
@@ -568,50 +482,99 @@ li {
     margin-top: 10px;
   }
 
-  .card4 {
-    margin-top: 10px;
+  .row1{
+    margin-left:18px;
   }
 
-  .card5 {
-    margin-top: 10px;
+  .row2{
+    margin-left:18px;
+  }
+  .about-hi-contact{
+margin-top: 60px;
   }
 }
-
-@media screen and (min-width: 375px) and (max-width: 413px) {
+@media screen and (min-width: 412px) and (max-width:413px) {
+  
   .portfolio-section img {
-    width: 42vh;
+    height: 50%;
+    width: 100%;
   }
 
   .portfolio-section h1 {
     font-size: 3rem;
   }
 
-  .card1 {
+  .card {
     margin-top: 10px;
   }
 
-  .card2 {
-    margin-top: 10px;
+  .cardSofa{
+    height: 24rem !important;
+    margin-right: 20px;
   }
-
-  .card3 {
-    margin-top: 10px;
-  }
-
-  .card4 {
-    margin-top: 10px;
-  }
-
-  .card5 {
-    margin-top: 10px;
-  }
-  .card6 {
-    margin-top: 10px;
+  .cardWP{
+    height: 31rem !important;
   }
 
   .about-hi-contact {
     margin-top: 40px;
     margin-bottom: 20px;
+  }
+
+ 
+  .row1{
+    margin-left:18px;
+  }
+
+  .row2{
+    margin-left:18px;
+  }
+
+  .card2 .cardWP{
+    height: 18rem !important;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+
+ 
+  .portfolio-section img {
+    height: 50%;
+    width: 100%;
+  }
+
+  .portfolio-section h1 {
+    font-size: 3rem;
+  }
+
+  .card {
+    margin-top: 10px;
+  }
+
+  .cardSofa{
+    height: 24rem !important;
+    margin-right: 20px;
+  }
+  .cardWP{
+    height: 31rem !important;
+  }
+
+  .about-hi-contact {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+ 
+  .row1{
+    margin-left:4px;
+  }
+
+  .row2{
+    margin-left:4px;
+  }
+
+  .card2 .cardWP{
+    height: 18rem !important;
   }
 }
 
@@ -624,9 +587,6 @@ li {
     width: 28vh;
   }
 
-  .card1 {
-    margin-top: 10px;
-  }
 
   .card2 {
     margin-top: 10px;
@@ -636,14 +596,4 @@ li {
     margin-top: 10px;
   }
 
-  .card4 {
-    margin-top: 10px;
-  }
-
-  .card5 {
-    margin-top: 10px;
-  }
-  .card6 {
-    margin-top: 10px;
-  }
 }

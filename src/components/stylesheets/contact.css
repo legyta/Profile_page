@@ -20,6 +20,7 @@
   font-size: 2rem;
   font-family: 'Oswald', sans-serif;
   color: #25a18e;
+  margin-top: 80px;
 }
 
 .button-form-section {
@@ -27,20 +28,50 @@ display: flex;
 flex-direction: row;
 font-size: 1.2rem;
 margin-top: -40px;
+margin-bottom: 40px;
 }
 
 
 .call-section {
   display: flex;
-  flex-direction: column;
   align-items: center;
   margin:40px 20px 0px 20px
 }
 
+
+
+.phone-logo {
+ width:7%;
+ margin:20px
+}
+
+
+.wa-logo {
+  width: 7%;
+  margin: 20px 30px;
+
+}
+
+.mail-logo{
+  width: 7%;
+  margin:20px
+}
+
+.linkedin-logo {
+  width: 7%;
+  margin: 20px;
+}
+.cv-logo {
+  width: 7%;
+  margin: 20px;
+}
+
+
+
 .call-button .button {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
-  color: #000;
+  color: #363636;;
   height: 40px;
   width: 145%;
   margin: auto;
@@ -78,6 +109,7 @@ background-color: #00a5cf;
 
 .contact-section p {
   font-size: 1.2rem;
+  margin-bottom: 0px;
 }
 
 .contact-section a.btn.btn-primary {
@@ -103,14 +135,22 @@ background-color: #00a5cf;
 }
 
 .social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-bottom: 20px;
-}
-.social-media .git {
-  margin-left: 10px;
 }
 
 .social-svg-mask .git {
   fill: rgb(46, 46, 46);
+}
+
+
+.cvImage{
+  height: 5%;
+  width: 4.5%;
+  margin-left: 20px !important;
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -168,6 +208,27 @@ background-color: #00a5cf;
     flex-direction: column;
     justify-content: center;
   }
+
+  .phone-logo {
+    width:13%;
+   }
+   
+   
+   .wa-logo {
+     width: 13%;
+   
+   }
+   
+   .mail-logo{
+     width: 13%;
+   }
+   
+   .linkedin-logo {
+     width: 13%;
+   }
+   .cv-logo {
+     width: 13%;
+   }
 }
 
 @media screen and (min-width: 375px) and (max-width: 411px) {
@@ -184,4 +245,25 @@ background-color: #00a5cf;
   .form-description{
     margin-top: -30px;
   }
+
+  
+
+.phone-logo {
+  width:13%;
+ }
+ 
+ .wa-logo {
+   width: 13%;
+ }
+ 
+ .mail-logo{
+   width: 13%;
+ }
+ 
+ .linkedin-logo {
+   width: 13%;
+ }
+ .cv-logo {
+   width: 13%;
+ }
 }

@@ -1,6 +1,7 @@
 import React from "react";
-import aboutPhoto from "./images/aboutPhoto.jpg";
-import bubbles from "./images/bubbles.JPG";
+import aboutPhoto from "./images/aboutPhoto.JPG";
+import work from "./images/work2.jpg";
+import feather from "./images/feather.svg";
 import "./stylesheets/about.css";
 
 function About() {
@@ -10,7 +11,7 @@ function About() {
         <div className="about-hi">
           <h1>Hi!</h1>
         </div>
-        <img className="aboutImage" src={aboutPhoto} alt="profile-photo" />
+        <img className="aboutImage" src={aboutPhoto} alt="profile" />
         <div className="about-name">
           {" "}
           <p>
@@ -22,17 +23,17 @@ function About() {
         </div>{" "}
       </div>
 
-      <div className="bubblesImage">
-        <img className="bubblesImage" src={bubbles} alt="profile-photo" />
+      <div className="feather">
+        <img className="featherImage" src={feather} alt="profile-photo" />
       </div>
 
-      <div>
+      <div className="vision">
         <h2>Mission</h2>
         <p>
-          Making the website for myself or others is nurturing the idea,
-          comtemplating what works, reflecting your truth, values and drive
-          towards your goal. It's about the process which births the idea and
-          concept with no rush. At its own time.
+          Making personal website is nurturing the idea, comtemplating what
+          works, reflecting your truth, values and drive towards your goal. It's
+          about the process which births the idea and concept with no rush. At
+          its own time.
         </p>
 
         <h2>Vision</h2>
@@ -46,21 +47,26 @@ function About() {
         <p>Flow. Collaboration. Responsibility.</p>
       </div>
 
-      <div className="bubblesImage">
-        <img className="bubblesImage" src={bubbles} alt="profile-photo" />
+      <div className="feather">
+        <img className="featherImage1" src={feather} alt="profile-photo" />
       </div>
-      <div className="about-work">
-        <p>The following is the work I do:</p>
-        <ol>
-          <li> Building custom coded websites</li>
-          <li> Building WordPress sites </li>
-          <li> Redesigning the existing projects</li>
-          <li> Technical assistance on the existing websites</li>
-          <li> Guidance while building site yourself</li>
-        </ol>
+
+      <div className="work-section">
+        <img className="workImage" src={work} alt="profile-photo" />
+        <div className="about-work">
+          <p>The following is the work I do:</p>
+          <ol>
+            <li> Building custom coded websites</li>
+            <li> Building WordPress sites </li>
+            <li> Redesigning the existing projects</li>
+            <li> Technical assistance on the existing websites</li>
+            <li> Guidance while building site yourself</li>
+          </ol>
+        </div>
       </div>
+
       <h3 className="about-slogan">
-        I help you turn the idea of the website into reality
+        I help you turn the idea of the website into reality!
       </h3>
     </div>
   );

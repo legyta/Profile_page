@@ -4,6 +4,36 @@ img {
   margin:40px
 }
 
+p {
+  color: #363636;
+}
+
+li {
+  color:#363636;
+}
+
+.feather {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -90px;
+  margin-bottom: -60px;
+}
+
+.featherImage {
+  width: 13%;
+  margin: 0px;
+  rotate: 80deg;
+}
+
+.featherImage1 {
+  width: 13%;
+  margin: 0px;
+  rotate: 260deg;
+  margin-top: 50px;
+}
+
 .about-section .about-hi-img .aboutImage {
   border-top-left-radius: 75% 50%;
   border-top-right-radius: 50% 50%;
@@ -26,9 +56,16 @@ img {
   margin-top: 20px;}
 
 
+  .work-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
 .about-work {
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
 }
 
 li {
@@ -40,14 +77,14 @@ li {
   font-size: 3rem;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 10px;
-  color: #25a18e;
+  color: #fdcf00;
 }
 
 .about-hi-contact h1 {
   font-size: 3rem;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 10px;
-  color: #25a18e;
+  color: #890f54;
   margin-bottom: 20px;
 }
 
@@ -55,7 +92,7 @@ li {
   font-size: 3rem;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 10px;
-  color: #25a18e;
+  color: #890f54;
 }
 
 .about-section h1 {
@@ -70,10 +107,10 @@ li {
 }
 
 h2 {
-  color: #25a18e;
+  color: #890f54;
 }
 .about-section li {
-  font-size: 1.4rem;
+  font-size: 1.4rem;  
 }
 
 .about-section .about-techs {
@@ -90,17 +127,15 @@ h2 {
 .about-slogan {
   display: flex;
   justify-content: center;
-  color: #00a5cf;
+  color: #3373A3;
   font-size: 1.8rem;
   margin: 40px 0px }
+  
+  .workImage {
+    width: 30%;
+    filter: drop-shadow(5px 10px 10px #fdcf00);  }
 
 @media screen and (min-width: 1025px) {
-  img {
-    height: 15%;
-    width: 15%;
-    margin: 40px;
-    
-  }
 
   .about-hi-img {
     display: flex;
@@ -121,7 +156,7 @@ h2 {
   }
 
  .about-hi-contact h1 {
-    margin-top: 40px;
+    margin-top: 80px;
     font-size: 4rem;
   }
 
@@ -164,7 +199,7 @@ h2 {
     margin-bottom: 10px;
   }
 
-  .bubblesImage {
+  .workImage {
     margin-top: 10px;
   }
   .about-section .about-hi h1 {
@@ -191,12 +226,24 @@ h2 {
   .about-section p {
     font-size: 1.5rem;
   }
+  .featherImage1{
+    margin-bottom: 40px;
+  }
+ 
+  .about-work{
+    margin-top: -120px;
+   }
 }
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
+
+  .about-section .about-hi-img .aboutImage {
+    width: 30%;
+  }
+
   img {
-    height: 25%;
-    width: 25%;
+    height: 35%;
+    width: 35%;
     margin-top: 40px;
     margin-left: 30px;
   }
@@ -211,6 +258,27 @@ h2 {
     font-size: 4rem;
   }
 
+  .vision{
+    margin-bottom: -40px;
+  }
+
+  .feather {
+    margin-top: -50px;
+    margin-bottom: -50px;
+  }
+  
+  .featherImage{
+    width: 20%;
+  }
+  
+  .featherImage1{
+    width: 20%;
+    margin-bottom: 20px;
+  }
+
+.workImage{
+  width: 40%;
+}
 .about-hi-contact h1 {
     margin-top: 40px;
   }
@@ -233,11 +301,19 @@ h2 {
     font-size: 1.4rem;
     margin-top: 30px;
   }
+
+  ol {
+    width: 97%;
+  }
+
+  .about-work{
+    margin-top: -10px;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 414px) {
   .about-section .about-hi-img .aboutImage {
-    width: 55%;
+    width: 75%;
   }
 
   .about-section .about-hi h1 {
@@ -251,13 +327,19 @@ h2 {
     margin-bottom: 0px;
   }
 
-  .bubblesImage {
-    margin-top: 20px;
-  }
-  .bubblesImage img{
-    height: 50%;
-    width: 50%;
-  }
+.feather {
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+.featherImage{
+  width: 30%;
+}
+
+.featherImage1{
+  width: 30%;
+  margin-bottom: -20px;
+}
 
   .about-hi-portfolio h1 {
     margin-top: 0px;
@@ -280,5 +362,24 @@ h2 {
 
   ul{
     margin:0px
+  }
+
+  ol {
+    width: 97%;
+  }
+  .about-work{
+    margin-top: -10px;
+  }
+  .work-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work-section{
+    margin-top: 60px;
+  }
+
+  .workImage {
+    width: 100%;
   }
 }
