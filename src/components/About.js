@@ -62,6 +62,8 @@ function About() {
             <li> Technical assistance on the existing websites</li>
             <li> Guidance while building site yourself</li>
           </ol>
+
+          <p>I work in English, Spanish, Italian or Lithuanian languages. </p>
         </div>
       </div>
 
