@@ -2,7 +2,7 @@
   "name": "profile-ligita",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://legyta.github.io/profile",
+  "homepage": "https://legyta.github.io/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^4.2.4",
