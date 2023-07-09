@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.20d5fd5d.css",
-    "main.js": "/profile/static/js/main.d3ad29fc.js",
+    "main.js": "/profile/static/js/main.6eb9b6d6.js",
     "static/media/work2.jpg": "/profile/static/media/work2.b85bfa40ffdbe8464cf0.jpg",
     "static/media/groenhartig.PNG": "/profile/static/media/groenhartig.063285bc2d2eb2110a9d.PNG",
     "static/media/sofa.PNG": "/profile/static/media/sofa.ee9c877465f88be6abb6.PNG",
@@ -10,16 +10,16 @@
     "static/media/mysite.jpg": "/profile/static/media/mysite.d5e4c3e77d6a13ed960d.jpg",
     "static/media/feather.svg": "/profile/static/media/feather.d5cd3a073117090be6c19592acaa93cc.svg",
     "static/media/sissy.PNG": "/profile/static/media/sissy.8122566870d421095d49.PNG",
+    "static/media/aboutPhoto.JPG": "/profile/static/media/aboutPhoto.4b1f5821cd6ddf5c50d8.JPG",
     "static/media/birthday.PNG": "/profile/static/media/birthday.d295b5c7352cff6b57e7.PNG",
-    "static/media/aboutPhoto.JPG": "/profile/static/media/aboutPhoto.17ca45be1e0273aa87a4.JPG",
     "static/media/CV.pdf": "/profile/static/media/CV.7b511b5c7d7665563000.pdf",
     "static/media/dentist.png": "/profile/static/media/dentist.252fa103958af61a5ab5.png",
     "index.html": "/profile/index.html",
     "main.20d5fd5d.css.map": "/profile/static/css/main.20d5fd5d.css.map",
-    "main.d3ad29fc.js.map": "/profile/static/js/main.d3ad29fc.js.map"
+    "main.6eb9b6d6.js.map": "/profile/static/js/main.6eb9b6d6.js.map"
   },
   "entrypoints": [
     "static/css/main.20d5fd5d.css",
-    "static/js/main.d3ad29fc.js"
+    "static/js/main.6eb9b6d6.js"
   ]
 }
