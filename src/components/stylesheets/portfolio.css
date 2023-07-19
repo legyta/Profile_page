@@ -47,6 +47,8 @@
 
 .portfolio-section img {
   margin: 0px 0px 0px 0px;
+  height: 50%;
+  width: 100%;
 }
 
 a.btn.btn-primary {
@@ -532,6 +534,10 @@ margin-top: 60px;
 
   .card2 .cardWP{
     height: 18rem !important;
+  }
+
+  li{
+    margin-right: 40px;
   }
 }
 

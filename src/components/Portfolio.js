@@ -19,7 +19,10 @@ function Portfolio() {
         <h1>My work</h1>
       </div>
       <ol className="list-coded">
-        <li> Custom coded concept to reality development</li>
+        <li className="listDescr">
+          {" "}
+          Custom coded concept to reality development
+        </li>
       </ol>
 
       <div className="row1">
