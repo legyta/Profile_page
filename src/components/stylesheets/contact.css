@@ -267,3 +267,47 @@ background-color: #00a5cf;
    width: 13%;
  }
 }
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .phone-logo{
+    width: 12%;
+  }
+
+  .wa-logo{
+    width: 12%;
+  }
+
+  .mail-logo{
+    width: 12%;
+  }
+
+  .linkedin-logo{
+    width: 12%;
+  }
+
+  .cv-logo{
+    width: 12%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 319px) {
+  .phone-logo{
+    width: 12%;
+  }
+
+  .wa-logo{
+    width: 12%;
+  }
+
+  .mail-logo{
+    width: 12%;
+  }
+
+  .linkedin-logo{
+    width: 12%;
+  }
+
+  .cv-logo{
+    width: 12%;
+  }
+}

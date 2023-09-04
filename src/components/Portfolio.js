@@ -28,7 +28,7 @@ function Portfolio() {
       <div className="row1">
         <Card
           style={{
-            marginRight: "20px",
+            // marginRight: "20px",
             border: "solid",
             borderWidth: "0.2rem",
             borderColor: "#fdcf00",
@@ -58,7 +58,7 @@ function Portfolio() {
             border: "solid",
             borderWidth: "0.2rem",
             borderColor: "#fdcf00",
-            marginRight: "20px",
+            // marginRight: "20px",
           }}
         >
           <Card.Img variant="top" src={dentist} />
@@ -87,7 +87,7 @@ function Portfolio() {
             border: "solid",
             borderWidth: "0.2rem",
             borderColor: "#fdcf00",
-            marginRight: "20px",
+            // marginRight: "20px",
           }}
         >
           <Card.Img variant="top" src={sofa} />
@@ -111,7 +111,7 @@ function Portfolio() {
         <Card
           className="cardSofa"
           style={{
-            marginRight: "20px",
+            // marginRight: "20px",
             border: "solid",
             borderWidth: "0.2rem",
             borderColor: "#fdcf00",
@@ -144,7 +144,7 @@ function Portfolio() {
             border: "solid",
             borderWidth: "0.2rem",
             borderColor: "#fdcf00",
-            marginRight: "20px",
+            // marginRight: "20px",
           }}
         >
           <Card.Img variant="top" src={birthday} />
@@ -171,6 +171,7 @@ function Portfolio() {
             border: "solid",
             borderWidth: "0.2rem",
             borderColor: "#fdcf00",
+            // marginRight: "20px",
           }}
         >
           <Card.Img variant="top" src={sissy} />
