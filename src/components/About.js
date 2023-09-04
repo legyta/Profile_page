@@ -24,7 +24,7 @@ function About() {
       </div>
 
       <div className="feather">
-        <img className="featherImage" src={feather} alt="profile-photo" />
+        <img className="featherImage" src={feather} alt="profile-feather" />
       </div>
 
       <div className="vision">
@@ -48,11 +48,11 @@ function About() {
       </div>
 
       <div className="feather">
-        <img className="featherImage1" src={feather} alt="profile-photo" />
+        <img className="featherImage1" src={feather} alt="profile-feather" />
       </div>
 
       <div className="work-section">
-        <img className="workImage" src={work} alt="profile-photo" />
+        <img className="workImage" src={work} alt="profile-work" />
         <div className="about-work">
           <p>The following is the work I do:</p>
           <ol>
