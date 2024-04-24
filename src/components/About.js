@@ -30,7 +30,7 @@ function About() {
       <div className="vision">
         <h2>Mission</h2>
         <p>
-          Making personal website is nurturing the idea, comtemplating what
+          Making personal website is nurturing the idea, contemplating what
           works, reflecting your truth, values and drive towards your goal. It's
           about the process which births the idea and concept with no rush. At
           its own time.
