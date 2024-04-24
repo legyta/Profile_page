@@ -9,6 +9,8 @@ import birthday from "./images/birthday.PNG";
 import groenhartig from "./images/groenhartig.PNG";
 import eva from "./images/eva.PNG";
 import emotus from "./images/emotus.PNG";
+import eucanaid from "./images/eucanaid.PNG"
+import sensitiveflowasis from "./images/sensitiveflowasis.PNG"
 import "./stylesheets/portfolio.css";
 import "./stylesheets/about.css";
 
@@ -209,18 +211,18 @@ function Portfolio() {
             height: "28rem",
           }}
         >
-          <Card.Img variant="top" src={emotus} />
+          <Card.Img variant="top" src={eucanaid} />
           <Card.Body>
             <Card.Title className="card-title">
-              Psychology practice in Amsterdam
+              Association supporting small NGOs
             </Card.Title>
             <Card.Text>
-              <li>Currently redesigning the website</li>
-              <li>Colaborated developing the site</li>
+              <li>Redesigned the website</li>
+              <li>Improved structure, forms </li>
             </Card.Text>
             <Button
               className="sofa-button"
-              href="https://emotus.care/"
+              href="https://www.eucanaid.eu/"
               target="_blank"
               rel="noreferrer"
             >
@@ -238,15 +240,44 @@ function Portfolio() {
             height: "28rem",
           }}
         >
+          <Card.Img variant="top" src={emotus} />
+          <Card.Body>
+            <Card.Title className="card-title">
+            Psychology practice in Amsterdam
+            </Card.Title>
+            <Card.Text>
+               <li>Redesigned the website</li>
+               <li>Colaborated developing the site</li>
+            </Card.Text>
+            <Button
+              className="sofa-button"
+              href="https://emotus.care/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Visit site
+            </Button>
+          </Card.Body>
+        </Card>
+      </div>
+
+      <div className="row2">
+        <Card
+          className="card3 cardWP"
+          style={{
+            border: "solid",
+            borderWidth: "0.2rem",
+            borderColor: "#fdcf00",
+            height: "28rem",
+          }}
+        >
           <Card.Img variant="top" src={groenhartig} />
           <Card.Body>
             <Card.Title className="card-title">
-              Organic vegetables farm in Amsterdam
+            Organic vegetables farm in Amsterdam
             </Card.Title>
             <Card.Text>
-              <li>
-                Colaborated in finishing the development and design of the site
-              </li>
+              <li>Colaborated in finishing the development and design of the site</li>             
             </Card.Text>
             <Button
               className="sofa-button"
@@ -257,8 +288,46 @@ function Portfolio() {
               Visit site
             </Button>
           </Card.Body>
-        </Card>
+        </Card>        
       </div>
+
+      <div className="wordpress">
+        <ol className="list-coded">
+          <li>Coaching</li>
+        </ol>
+      </div>
+
+      <div className="row2">
+        <Card
+          className="card3 cardWP"
+          style={{
+            border: "solid",
+            borderWidth: "0.2rem",
+            borderColor: "#fdcf00",
+            height: "28rem",
+          }}
+        >
+          <Card.Img variant="top" src={sensitiveflowasis} />
+          <Card.Body>
+            <Card.Title className="card-title">
+            HSP Therapist Profile
+            </Card.Title>
+            <Card.Text>
+              <li>Assisting with layout, design and launch of the website</li>             
+            </Card.Text>
+            <Button
+              className="sofa-button"
+              href="https://www.sensitiveflowasis.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Visit site
+            </Button>
+          </Card.Body>
+        </Card>        
+      </div>
+
+
       <div className="about-hi-contact">
         <h1>Contact</h1>
       </div>

@@ -31,7 +31,7 @@ function Contact() {
               <img src={phone} className="phone-logo" alt="logo"></img>
             </a>
             <a
-              href="https://wa.me/+34664434834"
+              href="https://wa.me/+393513823189"
               target="_blank"
               rel="noreferrer"
             >
